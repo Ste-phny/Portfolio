@@ -1,15 +1,12 @@
 import React from "react";
-import logo2 from "../assets/images/logo2.png";
+import logo from "../assets/images/logo.png";
 
 function Contact() {
   return (
     <>
       <div className="contact">
         <div className="side">
-          <img src={logo2} alt="#" />
-          <p>
-            I build projects that are visually <br /> appealing and easy to use.
-          </p>
+          <img src={logo} alt="#" />
         </div>
         <div className="left">
           <h3>Let's Work Together</h3>

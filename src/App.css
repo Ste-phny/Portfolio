@@ -4,6 +4,7 @@ body {
 }
 .nav {
   display: flex;
+  max-height: 8vh;
   align-items: center;
   justify-content: space-between;
   font-family: "Jost", sans-serif;
@@ -12,14 +13,9 @@ body {
   background-color: #3b1f47;
   box-shadow: 0 4px 12px rgb(187, 184, 187);
 }
-.nav .logo {
-  background-color: #f3eaf4;
-  padding: 6px 10px;
-  border-radius: 10px;
-}
 .nav .logo img {
-  width: 50px;
-  mix-blend-mode: multiply;
+  width: 100px;
+  object-fit: cover;
 }
 .nav p {
   color: white;
@@ -249,7 +245,7 @@ body {
 .contact {
   padding: 25px;
   display: flex;
-  gap: 15%;
+  gap: 10%;
   font-family: "Jost", sans-serif;
 }
 .contact .side {
@@ -257,6 +253,10 @@ body {
   width: 30%;
   flex-direction: column;
   justify-content: center;
+}
+.contact .side img {
+  width: 70%;
+  height: 40vh;
 }
 .contact .left {
   color: #3b1f47;
@@ -308,7 +308,7 @@ body {
     width: 100%;
     flex-wrap: wrap;
     padding: 25px;
-    gap: 8%;
+    gap: 7%;
   }
   .contact .side {
     width: 100%;
@@ -338,7 +338,7 @@ body {
     padding: 25px;
     width: 100%;
     flex-wrap: wrap;
-    gap: 8%;
+    gap: 7%;
   }
   .contact .side {
     width: 30%;
