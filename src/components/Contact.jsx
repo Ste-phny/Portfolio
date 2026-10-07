@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../assets/images/logo.jpeg";
+import logo from "../assets/images/logo.jpeg";
 
 function Contact() {
   return (

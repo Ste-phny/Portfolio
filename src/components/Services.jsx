@@ -1,7 +1,7 @@
 import React from "react";
-import profile from "../assets/images/responsive.jpeg";
-import profile from "../assets/images/redesign.jpeg";
-import profile from "../assets/images/webdesign.jpeg";
+import responsive from "../assets/images/responsive.jpeg";
+import redesign from "../assets/images/redesign.jpeg";
+import webdesign from "../assets/images/webdesign.jpeg";
 
 function Services() {
   return (
