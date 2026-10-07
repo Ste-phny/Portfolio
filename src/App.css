@@ -1,0 +1,361 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+  padding: 15px;
+  background-color: #3b1f47;
+  box-shadow: 0 4px 12px rgb(187, 184, 187);
+}
+.nav .logo {
+  background-color: #f3eaf4;
+  padding: 6px 10px;
+  border-radius: 10px;
+}
+.nav .logo img {
+  width: 50px;
+  mix-blend-mode: multiply;
+}
+.nav p {
+  color: white;
+}
+.nav button {
+  color: #3b1f47;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 8px;
+}
+.nav button svg {
+  margin-bottom: -3px;
+}
+.nav button:hover {
+  cursor: pointer;
+}
+.header {
+  padding: 30px;
+  display: flex;
+  gap: 5%;
+  background-color: #f3eaf4;
+}
+.header .left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #241329;
+  font-family: "Jost", sans-serif;
+}
+.header .left h5 {
+  font-size: 20px;
+}
+.header .left h5 svg {
+  font-size: 25px;
+}
+.header .left h1 {
+  font-size: 30px;
+  line-height: 40px;
+}
+.header .left p {
+  font-size: 15px;
+  margin-bottom: 30px;
+  line-height: 23px;
+}
+.header .left button {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  color: white;
+  background-color: #3b1f47;
+  border: none;
+  border-radius: 10px;
+}
+.header .left button:hover {
+  cursor: pointer;
+}
+.header .left button svg {
+  margin-bottom: -3px;
+}
+.header .right {
+  width: 50%;
+}
+.header .right img {
+  width: 100%;
+  height: 90vh;
+  mix-blend-mode: multiply;
+}
+@media only screen and (max-width: 650px) {
+  .header {
+    flex-wrap: wrap-reverse;
+  }
+  .header .left {
+    width: 100%;
+  }
+  .header .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .header {
+    flex-wrap: wrap-reverse;
+  }
+  .header .left {
+    width: 100%;
+  }
+  .header .right {
+    width: 100%;
+  }
+}
+.about {
+  padding: 30px;
+  font-family: "Jost", sans-serif;
+}
+.about .about-content {
+  display: flex;
+  gap: 18%;
+  color: #3b1f47;
+}
+.about .about-content .left {
+  width: 50%;
+  margin-top: 5%;
+}
+.about .about-content .left h3 {
+  font-size: 25px;
+}
+.about .about-content .left p {
+  line-height: 25px;
+  font-size: 15px;
+}
+.about .about-content .right {
+  width: 50%;
+  padding: 30px;
+}
+.about .about-content .right ol {
+  font-size: 15px;
+}
+@media only screen and (max-width: 650px) {
+  .about .about-content {
+    flex-wrap: wrap;
+  }
+  .about .about-content .left {
+    width: 100%;
+  }
+  .about .about-content .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .about .about-content {
+    flex-wrap: wrap;
+  }
+  .about .about-content .left {
+    width: 100%;
+  }
+  .about .about-content .right {
+    width: 100%;
+  }
+}
+.services {
+  font-family: "Jost", sans-serif;
+  padding: 30px;
+  background-color: #f3eaf4;
+}
+.services h3 {
+  color: #3b1f47;
+}
+.services .boxes {
+  display: flex;
+  justify-content: space-between;
+}
+.services .boxes .box {
+  width: 30%;
+  padding: 20px;
+  background-color: #3b1f47;
+  color: #f3eaf4;
+  border-radius: 30px;
+}
+.services .boxes .box img {
+  border-radius: 5px;
+}
+.services .boxes .box p {
+  font-size: 13px;
+  line-height: 20px;
+}
+.services .boxes .box1 {
+  width: 30%;
+  padding: 20px;
+  background-color: #3b1f47;
+  color: #f3eaf4;
+  border-radius: 30px;
+}
+.services .boxes .box1 img {
+  border-radius: 5px;
+}
+.services .boxes .box1 p {
+  font-size: 13px;
+  line-height: 20px;
+}
+@media only screen and (max-width: 650px) {
+  .services .boxes {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .services .boxes .box {
+    width: 70%;
+  }
+  .services .boxes .box1 {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .services .boxes {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .services .boxes .box {
+    width: 70%;
+  }
+  .services .boxes .box1 {
+    width: 70%;
+  }
+}
+.contact {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 15%;
+  font-family: "Jost", sans-serif;
+}
+.contact .side {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact .left {
+  color: #3b1f47;
+  width: 30%;
+  margin-top: 20px;
+}
+.contact .left p {
+  font-size: 17px;
+}
+.contact .left h3 {
+  font-size: 30px;
+}
+.contact .left h5 {
+  font-size: 18px;
+  margin-bottom: -1px;
+}
+.contact .left span {
+  font-size: 13px;
+}
+.contact .right {
+  width: 30%;
+  color: #3b1f47;
+  background-color: #f3eaf4;
+  padding: 20px;
+  border-radius: 20px;
+}
+.contact .right .input {
+  display: flex;
+  gap: 30px;
+}
+.contact .right .input .form-group {
+  display: flex;
+  flex-direction: column;
+}
+.contact .right .input .form-group input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.contact .right .input .form-group label {
+  margin-bottom: 5px;
+}
+.contact .right textarea {
+  width: 100%;
+  height: 15vh;
+}
+@media only screen and (max-width: 650px) {
+  .contact {
+    flex-wrap: wrap;
+  }
+  .contact .side {
+    width: 30%;
+  }
+  .contact .side p {
+    font-size: 14px;
+  }
+  .contact .left {
+    width: 30%;
+  }
+  .contact .left h3 {
+    font-size: 20px;
+  }
+  .contact .left p {
+    font-size: 14px;
+  }
+  .contact .right {
+    width: 70%;
+    margin-top: 20px;
+  }
+  .contact .right .input .form-group {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .contact {
+    flex-wrap: wrap;
+  }
+  .contact .side {
+    width: 30%;
+  }
+  .contact .side p {
+    font-size: 14px;
+  }
+  .contact .left {
+    width: 30%;
+  }
+  .contact .left h3 {
+    font-size: 20px;
+  }
+  .contact .left p {
+    font-size: 14px;
+  }
+  .contact .right {
+    width: 70%;
+    margin-top: 20px;
+  }
+  .contact .right .input {
+    gap: 60px;
+  }
+  .contact .right .input .form-group {
+    width: 40%;
+  }
+  .contact .right .input input {
+    width: 100%;
+  }
+}
+.footer {
+  font-family: "Jost", sans-serif;
+  padding: 25px;
+  color: #3b1f47;
+}
+.footer hr {
+  border-top: 2px solid #3b1f47;
+}
+.footer p {
+  font-size: 13px;
+}
