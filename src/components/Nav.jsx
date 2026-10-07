@@ -1,12 +1,13 @@
 import React from "react";
 import { IoMdArrowRoundDown } from "react-icons/io";
+import profile from "../assets/images/logo.jpeg";
 
 function Nav() {
   return (
     <>
       <div className="nav">
         <div className="logo">
-          <img src="src/assets/images/logo.jpeg" alt="#" />
+          <img src={logo} alt="#" />
         </div>
         <p>Front-End Developer</p>
         <button>

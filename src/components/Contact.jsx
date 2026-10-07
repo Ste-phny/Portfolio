@@ -1,11 +1,12 @@
 import React from "react";
+import profile from "../assets/images/logo.jpeg";
 
 function Contact() {
   return (
     <>
       <div className="contact">
         <div className="side">
-          <img src="src/assets/images/logo.jpeg" alt="#" />
+          <img src={logo} alt="#" />
           <p>
             I build projects that are visually <br /> appealing and easy to use.
           </p>

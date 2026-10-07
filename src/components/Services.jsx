@@ -1,4 +1,7 @@
 import React from "react";
+import profile from "../assets/images/responsive.jpeg";
+import profile from "../assets/images/redesign.jpeg";
+import profile from "../assets/images/webdesign.jpeg";
 
 function Services() {
   return (
@@ -7,7 +10,7 @@ function Services() {
         <h3>Services</h3>
         <div className="boxes">
           <div className="box">
-            <img src="src/assets/images/webdesign.jpeg" alt="#" />
+            <img src={webdesign} alt="#" />
             <h4>Website Design</h4>
             <p>
               Designing clean and responsive websites that deliver smooth and
@@ -15,7 +18,7 @@ function Services() {
             </p>
           </div>
           <div className="box1">
-            <img src="src/assets/images/responsive.jpeg" alt="#" />
+            <img src={responsive} alt="#" />
             <h4>Responsive Design</h4>
             <p>
               Designing fully adaptive layouts that deliver a seamless
@@ -23,7 +26,7 @@ function Services() {
             </p>
           </div>
           <div className="box">
-            <img src="src/assets/images/redesign.jpeg" alt="#" />
+            <img src={redesign} alt="#" />
             <h4>Visual Website Redesign</h4>
             <p>
               Transforming outdated interfaces into mordern, user-friendly
