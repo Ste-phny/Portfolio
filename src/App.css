@@ -249,7 +249,6 @@ body {
 .contact {
   padding: 25px;
   display: flex;
-  justify-content: center;
   gap: 15%;
   font-family: "Jost", sans-serif;
 }
@@ -308,17 +307,17 @@ body {
   .contact {
     width: 100%;
     flex-wrap: wrap;
-    padding: 0;
+    padding: 25px;
     gap: 10%;
   }
   .contact .side {
-    width: 30%;
+    width: 100%;
   }
   .contact .side p {
     font-size: 14px;
   }
   .contact .left {
-    width: 30%;
+    width: 100%;
   }
   .contact .left h3 {
     font-size: 20px;
@@ -327,7 +326,7 @@ body {
     font-size: 14px;
   }
   .contact .right {
-    width: 70%;
+    width: 100%;
     margin-top: 20px;
   }
   .contact .right .input .form-group {
@@ -336,6 +335,7 @@ body {
 }
 @media only screen and (max-width: 950px) {
   .contact {
+    padding: 25px;
     width: 100%;
     flex-wrap: wrap;
     gap: 10%;
