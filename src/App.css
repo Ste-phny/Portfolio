@@ -308,7 +308,7 @@ body {
     width: 100%;
     flex-wrap: wrap;
     padding: 25px;
-    gap: 10%;
+    gap: 8%;
   }
   .contact .side {
     width: 100%;
@@ -338,7 +338,7 @@ body {
     padding: 25px;
     width: 100%;
     flex-wrap: wrap;
-    gap: 10%;
+    gap: 8%;
   }
   .contact .side {
     width: 30%;
